@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    user-select: none;
+    -webkit-font-smoothing:antialiased;
+}
+html, body{
+    background-color:#c0f3fa;
+}
+.container{
+    height: 100px;
+    width: 450px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px 2px white,
+                0 7px 5px 3px rgba(0,0,0,0.3)
+}
+.left{
+    width:130px;
+    height:130px;
+    background-color: pink;
+    transform: translateY(-45px);
+    border-radius: 50%;
+    margin-left:30px;
+    float:left;
+    background-image: url('../MusicSourse/Img/DAOKO (ダヲコ) - 打上花火.jpg');
+    background-size: 100% 100%;
+}
+.bot{
+    height: 75px;
+    width:75px;
+    float:right;
+    margin-top:12px;
+    margin-left:10px;
+    margin-right:7px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next{
+    margin-right:20px;
+}
+.top{
+    height: 0px;
+    width:400px;
+    margin: 360px auto;
+    margin-bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #e7e6e7;
+    overflow: hidden;
+}
+.content{
+    height:100px;
+    width:230px;
+    float: right;
+    margin-right:20px;
+    margin-top:15px;
+}
+.menu{
+    position:absolute;
+    width:240px;
+    height: 0px;
+    margin-top:15px;
+    transform: translate(145px, 110px);
+    background-color: gray;
+    overflow: hidden;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    visibility: visible;
+}
+.list{
+    height:110px;
+    width:210px;
+    float: right;
+    border-top-right-radius: 4px;
+    overflow-y:auto;
+    background-color: #D4D3D4;
+}
+.status{
+    height:110px;
+    width:30px;
+    float: left;
+    background-color: #C2C1C2;
+    border-top-left-radius: 4px;
+}
+img{
+    height: 30px;
+    width:30px;
+}
+.name{
+    width:230px;
+    height:30px;
+    margin:10px auto;
+    text-align: center;
+    font-size: 18px;;
+    white-space:nowrap;
+    color: #58a7fe
+}
+.below_container{
+    width:230px;
+    height:30px;
+    margin:13px auto;
+}
+.begin-time, .end-time, .now-time{
+    width:35px;
+    height: 17px;
+    float: left;
+    color: #919191;
+    font-size: 10px;
+}
+.end-time{
+    float: right;
+}
+.botton-bar{
+    height: 6px;
+    width:230px;
+    background-color: #919191;
+    border-radius: 3px;
+    float: right;
+    margin-top:1px;
+}
+.up-bar{
+    height:6px;
+    width: 150px;
+    background-color: black;
+    float:left;
+    border-radius: 3px;
+}
+.now-time{
+    float:right;
+    color: black;
+    font-size: 13px;
+    margin-left:2px;
+    margin-top:2px;
+}
+.left>div{
+    width: 17px;
+    height:17px;
+    margin: 56.5px auto;
+    border-radius:  50%;;
+    background-color: white;
+    box-shadow: 0 0 5px 0 white;
+}
+.pName{
+    font-size: 14px;
+    height:20px;
+    margin-top: 5PX;;
+    color: #4D4C4D;
+    margin-left: 3px;
+    border-radius: 5px;;
+}
+.list::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+  }
+.list::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+.list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+.repeat{
+    margin: 0px auto;
+    margin-top: 5px;
+    height: 27px;
+    width: 27px;
+    background-image: url("https://gitee.com/qq3109778990/remem_pic/raw/master/img/repeat.png");
+    background-size: 100% 100%;
+    background-color: #949394;
+    border-radius: 5px;;
+}
+.repeatOne{
+    margin: 0px auto;
+    margin-top: 5px;
+    height: 27px;
+    width: 27px;
+    background-image: url("https://gitee.com/qq3109778990/remem_pic/raw/master/img/repeatOne.png");
+    background-size: 100% 100%;
+}
